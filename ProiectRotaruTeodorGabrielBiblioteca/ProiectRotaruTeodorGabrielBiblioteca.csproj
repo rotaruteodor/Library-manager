@@ -1,0 +1,194 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{04E4A415-DD40-4ED0-93E4-EC7B3A67BEFA}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ProiectRotaruTeodorGabrielBiblioteca</RootNamespace>
+    <AssemblyName>ProiectRotaruTeodorGabrielBiblioteca</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Abonat.cs" />
+    <Compile Include="Angajat.cs" />
+    <Compile Include="Carte.cs" />
+    <Compile Include="ChartIntervalVarstaAbonati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ChartIntervalVarstaAbonati.Designer.cs">
+      <DependentUpon>ChartIntervalVarstaAbonati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DataBaseClass.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdaugareAbonat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdaugareAbonat.Designer.cs">
+      <DependentUpon>FormAdaugareAbonat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdaugareCarte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdaugareCarte.Designer.cs">
+      <DependentUpon>FormAdaugareCarte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAngajati.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAngajati.Designer.cs">
+      <DependentUpon>FormAngajati.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormImprumuturi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormImprumuturi.Designer.cs">
+      <DependentUpon>FormImprumuturi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificareAbonat.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificareAbonat.Designer.cs">
+      <DependentUpon>FormModificareAbonat.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormModificareCarte.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormModificareCarte.Designer.cs">
+      <DependentUpon>FormModificareCarte.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Imprumut.cs" />
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="PieChartCartiPerLuna.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PieChartCartiPerLuna.Designer.cs">
+      <DependentUpon>PieChartCartiPerLuna.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucModificareCarteSauAbonat.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucModificareCarteSauAbonat.Designer.cs">
+      <DependentUpon>ucModificareCarteSauAbonat.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ChartIntervalVarstaAbonati.resx">
+      <DependentUpon>ChartIntervalVarstaAbonati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdaugareAbonat.resx">
+      <DependentUpon>FormAdaugareAbonat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdaugareCarte.resx">
+      <DependentUpon>FormAdaugareCarte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAngajati.resx">
+      <DependentUpon>FormAngajati.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormImprumuturi.resx">
+      <DependentUpon>FormImprumuturi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificareAbonat.resx">
+      <DependentUpon>FormModificareAbonat.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormModificareCarte.resx">
+      <DependentUpon>FormModificareCarte.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PieChartCartiPerLuna.resx">
+      <DependentUpon>PieChartCartiPerLuna.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="ucModificareCarteSauAbonat.resx">
+      <DependentUpon>ucModificareCarteSauAbonat.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

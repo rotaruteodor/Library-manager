@@ -1,0 +1,38 @@
+22,Actiune,Singur pe lume,Hector Malot,192,18
+15,Actiune,Batranul si marea,Ernest Hemingway,256,29
+32,Actiune,Plansul lui Nietzsche,Irvin D. Yalom,282,32
+26,Actiune,Harry Potter,J.K. Rowling,228,9
+18,Actiune,Ciuleandra,Liviu Rebreanu,223,4
+20,Drama,Dragostea dureaza 3 ani,Frédéric Beigbeder,135,23
+34,Drama,Contele de Monte Cristo,Alexandre Dumas,355,30
+2,Drama,Maitreyi,Mircea Eliade,275,10
+29,Filozofie,Invitatie la vals,Mihail Drumes,317,10
+37,Filozofie,Arcul de triumf,Erich Maria Remarque,180,6
+17,Filozofie,Mandrie si prejudecata,Jane Austen,299,11
+9,Filozofie,Procesul,Franz Kafka,149,28
+31,Horror,Nimic nou pe frontul de vest,Erich Maria Remarque,250,15
+25,Horror,La Rascruce de vinturi,Emily Bronte,352,30
+24,Horror,Mizerabilii,Victor Hugo,294,22
+27,Horror,Ion,Liviu Rebreanu,211,19
+40,Horror,Asa grait-a Zarathustra,Friedrich Nietzsche,343,24
+7,Horror,Padurea spanzuratilor,Liviu Rebreanu,325,8
+39,Iubire,Fratii Karamazov,Feodor Dostoievski,225,28
+16,Iubire,Povara bunatatii noastre,Ion Druta,101,9
+23,Iubire,Anna Karenina,Lev Tolstoi,152,31
+14,Iubire,Ora 25,Constantin Virgil Gheorghiu,239,29
+11,Iubire,Micul Print,Antoine de Saint,366,26
+35,Iubire,Aventurile si memoriile lui Sherlock Holmes,Arthur Conan Doyle,247,30
+4,Iubire,Un veac de singuratate,Gabriel Garcia Marquez,357,17
+8,Iubire,Portretul lui Dorian Gray,Oscar Wilde,362,27
+6,Iubire,Crima si pedeapsa,Feodor Dostoievski,118,6
+3,Mister,Nunta in cer,Mircea Eliade,181,27
+33,Mister,Interview with the Vampire,Anne Rice,139,16
+21,Mister,Dragostea in vremea holerei,Gabriel Garcia Marquez,128,26
+28,Mister,Romanul adolescentului miop,Mircea Eliade,344,32
+10,Mister,Strainul,Albert Camus,343,25
+36,Psihologie,Dracula,Bram Stoker,305,29
+13,Psihologie,Pe aripile vantului,Margaret Mitchell,391,13
+38,Psihologie,Marele Gatsby,F. Scott Fitzgerald,373,21
+19,Psihologie,Adam si Eva,Liviu Rebreanu,172,31
+30,Psihologie,Codul lui Da Vinci,Dan Brown,218,19
+41,qwq,werw,werw,12,12
